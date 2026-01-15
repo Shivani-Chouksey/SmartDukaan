@@ -1,50 +1,207 @@
-# Welcome to your Expo app 👋
+🏪 SmartDukaan
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SmartDukaan is a QR-based pre-order and pickup platform built for local shops that reduces waiting time, order chaos, and shopkeeper stress—while giving customers a faster, smoother shopping experience.
 
-## Get started
+🚨 Problem Statement
 
-1. Install dependencies
+Local shops face daily challenges:
 
-   ```bash
-   npm install
-   ```
+Customers wait in long queues
 
-2. Start the app
+Orders are shouted verbally → confusion
 
-   ```bash
-   npx expo start
-   ```
+Shopkeepers struggle to manage multiple customers
 
-In the output, you'll find options to open the app in a
+Peak hours = chaos + stress
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Customers waste time just to place an order
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Existing solutions:
 
-## Get a fresh project
+POS systems are complex
 
-When you're ready, run:
+Food delivery apps charge high commissions
 
-```bash
-npm run reset-project
-```
+No solution focuses on in-shop time reduction
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+💡 Solution: SmartDukaan
 
-## Learn more
+SmartDukaan allows customers to pre-order via QR or web, while shopkeepers receive organized digital orders in real time.
 
-To learn more about developing your project with Expo, look at the following resources:
+👉 Customer orders first
+👉 Shopkeeper prepares in advance
+👉 Customer picks up without waiting
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+No delivery. No commission. No chaos.
 
-## Join the community
+🎯 What Makes SmartDukaan Unique
+⭐ 1. Queue-Less Shopping (Core USP)
 
-Join our community of developers creating universal apps.
+Customers don’t stand in line
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Orders are placed before reaching the counter
+
+Faster turnover during peak hours
+
+⭐ 2. QR-Based Entry (No App Mandatory)
+
+Scan QR outside the shop
+
+Instantly opens shop menu
+
+Works even for non-tech users
+
+No login required to browse
+
+⭐ 3. Built for Local Indian Shops
+
+Kirana, medical, bakery, dairy
+
+Simple UI, big buttons
+
+Hindi/English friendly
+
+No training required
+
+⭐ 4. Item Request Feature (Rare & Powerful)
+
+If an item is missing from the list:
+
+Customer can request it
+
+Shopkeeper approves or rejects
+
+Inventory improves automatically over time
+
+➡️ Shops learn what customers actually want
+
+⭐ 5. No Marketplace, No Commission
+
+Each shop has its own digital store
+
+No competition with nearby shops
+
+No platform commission
+
+Shopkeeper owns customer data
+
+⭐ 6. Live Order Queue System
+
+Timestamp-based order flow
+
+Clear statuses: Pending → Ready → Completed
+
+Eliminates “kiska order pehle” confusion
+
+⭐ 7. Works in Peak Hours & Low Internet
+
+Lightweight & fast
+
+Works on low-end smartphones
+
+No hardware or POS machine required
+
+🧑‍🤝‍🧑 User Types
+👤 Customer
+
+Scan QR / open link
+
+Browse products
+
+Add to cart
+
+Request missing items
+
+Place order
+
+Pick up without waiting
+
+🧑‍💼 Shopkeeper
+
+Manage products
+
+Receive live orders
+
+Update order status
+
+View daily analytics
+
+Approve item requests
+
+🔄 High-Level Workflow
+Customer
+ ↓
+Scan QR / Open Link
+ ↓
+Browse Products
+ ↓
+Place Order / Request Item
+ ↓
+Order Sent to Shopkeeper
+ ↓
+Shopkeeper Prepares Order
+ ↓
+Customer Pickup (No Queue)
+
+📱 Key Features
+Customer Side
+
+QR-based shop access
+
+Product listing
+
+Cart & checkout
+
+Order status tracking
+
+Item request option
+
+Shopkeeper Side
+
+Product management
+
+Live orders dashboard
+
+Order status update
+
+Item approval system
+
+Basic analytics
+
+🧠 Why SmartDukaan Wins
+Feature	SmartDukaan	POS Apps	Delivery Apps
+Queue-less pickup	✅	❌	❌
+QR ordering	✅	❌	❌
+Item request	✅	❌	❌
+Zero commission	✅	❌	❌
+Local shop focused	✅	❌	❌
+Easy for kirana	✅	❌	❌
+🚀 Vision
+
+SmartDukaan aims to digitize local shops without replacing them, helping small businesses:
+
+Serve more customers
+
+Reduce stress
+
+Save time
+
+Compete with big platforms—without losing control
+
+🏗 Tech Stack (Planned)
+
+Frontend: React Native (Expo)
+
+Backend: Node.js / NestJS
+
+Database: MongoDB / PostgreSQL
+
+Auth: OTP-based login
+
+Hosting: AWS / Vercel
+
+QR: Dynamic QR per shop
+
+📌 Tagline
+
+SmartDukaan – Smart Orders. Zero Queues. Local Power
