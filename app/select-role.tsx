@@ -1,8 +1,8 @@
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { useState } from 'react';
-import { useRouter } from 'expo-router';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useRouter } from 'expo-router';
+import { useState } from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function SelectRoleScreen() {
   const [role, setRole] = useState<'CUSTOMER' | 'SHOPKEEPER' | null>(null);
@@ -12,6 +12,11 @@ export default function SelectRoleScreen() {
     if (!role) return;
 
     await AsyncStorage.setItem('userRole', role);
+    // if(role === 'CUSTOMER'){
+    //   router.replace('/(customer)/home')
+    // }else{
+    //   router.replace('/(shopkeeper)/home')
+    // }
     router.replace('/(auth)/login');
   };
 

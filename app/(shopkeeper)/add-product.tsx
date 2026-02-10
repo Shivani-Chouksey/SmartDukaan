@@ -1,17 +1,16 @@
+import { Ionicons } from '@expo/vector-icons';
+import * as ImagePicker from 'expo-image-picker';
+import { useRouter } from 'expo-router';
+import { useState } from 'react';
 import {
-  View,
+  Alert,
+  Image,
+  ScrollView,
+  StyleSheet,
   Text,
   TextInput,
-  TouchableOpacity,
-  StyleSheet,
-  ScrollView,
-  Image,
-  Alert,
+  TouchableOpacity
 } from 'react-native';
-import { useState } from 'react';
-import { useRouter } from 'expo-router';
-import * as ImagePicker from 'expo-image-picker';
-import { Ionicons } from '@expo/vector-icons';
 
 export default function AddProduct() {
   const router = useRouter();
@@ -115,7 +114,9 @@ export default function AddProduct() {
       {/* Image Picker */}
       <TouchableOpacity style={styles.imagePicker} onPress={pickImage}>
         {image ? (
-          <Image source={{ uri: image }} style={styles.imagePreview} />
+          <Image 
+          // source={{ uri: image }} 
+          style={styles.imagePreview} />
         ) : (
           <>
             <Ionicons name="image-outline" size={28} color="#2563EB" />

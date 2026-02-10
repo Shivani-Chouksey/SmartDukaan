@@ -1,13 +1,13 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useRouter } from 'expo-router';
+import { useState } from 'react';
 import {
-  View,
+  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
-  StyleSheet,
+  View,
 } from 'react-native';
-import { useState } from 'react';
-import { useRouter } from 'expo-router';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function LoginScreen() {
   const router = useRouter();
@@ -21,11 +21,11 @@ export default function LoginScreen() {
 
     const role = await AsyncStorage.getItem('userRole');
 
-    // if (role === 'SHOPKEEPER') {
-    //   router.replace('/(shopkeeper)/home');
-    // } else {
-    //   router.replace('/(customer)/home');
-    // }
+    if (role === 'SHOPKEEPER') {
+      router.replace('/(shopkeeper)/home');
+    } else {
+      router.replace('/(customer)/home');
+    }
   };
 
   return (
@@ -55,7 +55,7 @@ export default function LoginScreen() {
       </TouchableOpacity>
 
       <TouchableOpacity
-        onPress={() => router.push('/')}
+        onPress={() =>router.push('/register')}
       >
         <Text style={styles.linkText}>
           Don’t have an account? Register

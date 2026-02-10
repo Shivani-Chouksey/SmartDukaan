@@ -4,11 +4,11 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const unstable_settings = {
   anchor: '(tabs)',
 };
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const clearAllData = async () => {
   try {
@@ -25,11 +25,24 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+      {/* <CartProvider> */}
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+        <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+        <Stack.Screen name="select-role" options={{ headerShown: false }} />
+        <Stack.Screen name="(customer)" options={{ headerShown: false }} />
+        <Stack.Screen name="(shopkeeper)" options={{ headerShown: false }} />
+        <Stack.Screen name="(search)" options={{ headerShown: false }} />
+        
+
+     
+   
+
       </Stack>
+       {/* </CartProvider> */}
       <StatusBar style="auto" />
+
     </ThemeProvider>
   );
 }

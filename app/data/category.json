@@ -1,0 +1,642 @@
+{
+  "categories": [
+    {
+      "id": "cat-001",
+      "name": "Fruits & Vegetables",
+      "description": "Fresh and locally sourced fruits and vegetables.",
+      "image": "/images/categories/fruits-vegetables.png",
+      "subcategories": [
+        { "id": "sub-001", "name": "Fresh Fruits" },
+        { "id": "sub-002", "name": "Fresh Vegetables" },
+        { "id": "sub-003", "name": "Organic Produce" }
+      ]
+    },
+    {
+      "id": "cat-002",
+      "name": "Dairy & Bakery",
+      "description": "Milk, cheese, bread, and other baked goods.",
+      "image": "/images/categories/dairy-bakery.png",
+      "subcategories": [
+        { "id": "sub-004", "name": "Milk & Cream" },
+        { "id": "sub-005", "name": "Cheese" },
+        { "id": "sub-006", "name": "Bakery Items" }
+      ]
+    },
+    {
+      "id": "cat-003",
+      "name": "Snacks & Beverages",
+      "description": "Chips, cookies, soft drinks, juices, and more.",
+      "image": "/images/categories/snacks-beverages.png",
+      "subcategories": [
+        { "id": "sub-007", "name": "Snacks" },
+        { "id": "sub-008", "name": "Soft Drinks" },
+        { "id": "sub-009", "name": "Juices" }
+      ]
+    },
+    {
+      "id": "cat-004",
+      "name": "Staples & Grains",
+      "description": "Essential daily staples like rice, wheat, pulses.",
+      "image": "/images/categories/staples-grains.png",
+      "subcategories": [
+        { "id": "sub-010", "name": "Rice" },
+        { "id": "sub-011", "name": "Wheat & Flour" },
+        { "id": "sub-012", "name": "Pulses" }
+      ]
+    },
+    {
+      "id": "cat-005",
+      "name": "Household Essentials",
+      "description": "Cleaning supplies, detergents, and daily essentials.",
+      "image": "/images/categories/household.png",
+      "subcategories": [
+        { "id": "sub-013", "name": "Cleaning Supplies" },
+        { "id": "sub-014", "name": "Detergents" },
+        { "id": "sub-015", "name": "Kitchen Essentials" }
+      ]
+    }
+  ],
+   "subcategories": [
+    {
+      "id": "sub-001",
+      "name": "Fresh Fruits",
+      "items": [
+        {
+          "id": "itm-FF-001",
+          "sku": "FRU-APL-1KG",
+          "barcode": "8901001000011",
+          "name": "Apple Shimla",
+          "brand": "Local Farm",
+          "unit": "1 kg",
+          "price": 169,
+          "mrp": 189,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 36,
+          "image": "/images/items/apple-shimla-1kg.jpg",
+            "variants": [
+              { "unit": "500 g", "price": 89, "mrp": 99, "sku": "FRU-APL-500G" },
+              { "unit": "1 kg", "price": 169, "mrp": 189, "sku": "FRU-APL-1KG" }
+            ]
+        },
+        {
+          "id": "itm-FF-002",
+          "sku": "FRU-BAN-12PC",
+          "barcode": "8901001000012",
+          "name": "Banana (Yelakki)",
+          "brand": "Local Farm",
+          "unit": "12 pcs",
+          "price": 55,
+          "mrp": 60,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 80,
+          "image": "/images/items/banana-12pcs.jpg"
+        },
+        {
+          "id": "itm-FF-003",
+          "sku": "FRU-ORG-1KG",
+          "barcode": "8901001000013",
+          "name": "Orange Nagpur",
+          "brand": "Local Farm",
+          "unit": "1 kg",
+          "price": 99,
+          "mrp": 119,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 25,
+          "image": "/images/items/orange-nagpur-1kg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-002",
+      "name": "Fresh Vegetables",
+      "items": [
+        {
+          "id": "itm-FV-001",
+          "sku": "VEG-TOM-1KG",
+          "barcode": "8901001000101",
+          "name": "Tomato",
+          "brand": "Local Farm",
+          "unit": "1 kg",
+          "price": 38,
+          "mrp": 45,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 60,
+          "image": "/images/items/tomato-1kg.jpg"
+        },
+        {
+          "id": "itm-FV-002",
+          "sku": "VEG-ONI-1KG",
+          "barcode": "8901001000102",
+          "name": "Onion",
+          "brand": "Local Farm",
+          "unit": "1 kg",
+          "price": 32,
+          "mrp": 40,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 90,
+          "image": "/images/items/onion-1kg.jpg"
+        },
+        {
+          "id": "itm-FV-003",
+          "sku": "VEG-POT-1KG",
+          "barcode": "8901001000103",
+          "name": "Potato",
+          "brand": "Local Farm",
+          "unit": "1 kg",
+          "price": 28,
+          "mrp": 35,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 100,
+          "image": "/images/items/potato-1kg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-004",
+      "name": "Milk & Cream",
+      "items": [
+        {
+          "id": "itm-DA-001",
+          "sku": "MLK-AMU-TON-500",
+          "barcode": "8901262",
+          "name": "Toned Milk",
+          "brand": "Amul",
+          "unit": "500 ml",
+          "price": 28,
+          "mrp": 28,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 50,
+          "image": "/images/items/amul-toned-500.jpg"
+        },
+        {
+          "id": "itm-DA-002",
+          "sku": "CRM-AMU-FRESH-250",
+          "barcode": "8901262100023",
+          "name": "Fresh Cream",
+          "brand": "Amul",
+          "unit": "250 ml",
+          "price": 72,
+          "mrp": 75,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 18,
+          "image": "/images/items/amul-fresh-cream-250.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-006",
+      "name": "Bakery Items",
+      "items": [
+        {
+          "id": "itm-BK-001",
+          "sku": "BRD-BRIT-400",
+          "barcode": "8901063",
+          "name": "Bread (Whole Wheat)",
+          "brand": "Britannia",
+          "unit": "400 g",
+          "price": 42,
+          "mrp": 45,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 22,
+          "image": "/images/items/bread-wheat-400.jpg"
+        },
+        {
+          "id": "itm-BK-002",
+          "sku": "BUN-PAV-6",
+          "barcode": "8901001000203",
+          "name": "Pav Buns",
+          "brand": "Local Bakery",
+          "unit": "6 pcs",
+          "price": 28,
+          "mrp": 30,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 40,
+          "image": "/images/items/pav-6pcs.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-010",
+      "name": "Rice",
+      "items": [
+        {
+          "id": "itm-ST-001",
+          "sku": "RICE-BASM-5KG",
+          "barcode": "8901001000301",
+          "name": "Basmati Rice",
+          "brand": "Daawat",
+          "unit": "5 kg",
+          "price": 649,
+          "mrp": 699,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 14,
+          "image": "/images/items/daawat-basmati-5kg.jpg"
+        },
+        {
+          "id": "itm-ST-002",
+          "sku": "RICE-Sona-10KG",
+          "barcode": "8901001000302",
+          "name": "Sona Masoori Rice",
+          "brand": "Local Mill",
+          "unit": "10 kg",
+          "price": 549,
+          "mrp": 599,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 10,
+          "image": "/images/items/sona-masoori-10kg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-011",
+      "name": "Wheat & Flour",
+      "items": [
+        {
+          "id": "itm-ST-003",
+          "sku": "ATTA-AASH-5KG",
+          "barcode": "8901725",
+          "name": "Whole Wheat Atta",
+          "brand": "Aashirvaad",
+          "unit": "5 kg",
+          "price": 289,
+          "mrp": 315,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 20,
+          "image": "/images/items/aashirvaad-atta-5kg.jpg"
+        },
+        {
+          "id": "itm-ST-004",
+          "sku": "MAIDA-1KG",
+          "barcode": "8901001000402",
+          "name": "Maida",
+          "brand": "Local Mill",
+          "unit": "1 kg",
+          "price": 48,
+          "mrp": 55,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 30,
+          "image": "/images/items/maida-1kg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-012",
+      "name": "Pulses",
+      "items": [
+        {
+          "id": "itm-PL-001",
+          "sku": "DAL-TUR-1KG",
+          "barcode": "8901001000501",
+          "name": "Toor Dal",
+          "brand": "Local Mill",
+          "unit": "1 kg",
+          "price": 149,
+          "mrp": 165,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 26,
+          "image": "/images/items/toor-dal-1kg.jpg"
+        },
+        {
+          "id": "itm-PL-002",
+          "sku": "DAL-MOON-1KG",
+          "barcode": "8901001000502",
+          "name": "Moong Dal",
+          "brand": "Local Mill",
+          "unit": "1 kg",
+          "price": 129,
+          "mrp": 145,
+          "currency": "INR",
+          "tax": { "gst": 0 },
+          "stock": 22,
+          "image": "/images/items/moong-dal-1kg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-007",
+      "name": "Oils & Ghee",
+      "items": [
+        {
+          "id": "itm-OG-001",
+          "sku": "OIL-SUNF-1L",
+          "barcode": "8901030",
+          "name": "Sunflower Oil",
+          "brand": "Fortune",
+          "unit": "1 L",
+          "price": 139,
+          "mrp": 155,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 35,
+          "image": "/images/items/fortune-sunflower-1l.jpg"
+        },
+        {
+          "id": "itm-OG-002",
+          "sku": "GHEE-AMU-1L",
+          "barcode": "8901262GHEE",
+          "name": "Pure Ghee",
+          "brand": "Amul",
+          "unit": "1 L",
+          "price": 595,
+          "mrp": 615,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 12,
+          "image": "/images/items/amul-ghee-1l.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-008",
+      "name": "Masala & Spices",
+      "items": [
+        {
+          "id": "itm-MS-001",
+          "sku": "MAS-TURM-200",
+          "barcode": "8901001000601",
+          "name": "Turmeric Powder",
+          "brand": "Everest",
+          "unit": "200 g",
+          "price": 52,
+          "mrp": 58,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 25,
+          "image": "/images/items/everest-turmeric-200.jpg"
+        },
+        {
+          "id": "itm-MS-002",
+          "sku": "MAS-CHILI-200",
+          "barcode": "8901001000602",
+          "name": "Red Chilli Powder",
+          "brand": "MDH",
+          "unit": "200 g",
+          "price": 68,
+          "mrp": 75,
+          "currency": "INR",
+          "tax": { "gst": 5 },
+          "stock": 18,
+          "image": "/images/items/mdh-chilli-200.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-007A",
+      "name": "Snacks",
+      "items": [
+        {
+          "id": "itm-SN-001",
+          "sku": "SNK-LAYS-CLASS-52",
+          "barcode": "8901491",
+          "name": "Potato Chips - Classic Salted",
+          "brand": "Lay's",
+          "unit": "52 g",
+          "price": 20,
+          "mrp": 20,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 60,
+          "image": "/images/items/lays-classic-52.jpg"
+        },
+        {
+          "id": "itm-SN-002",
+          "sku": "SNK-HALD-NAMK-200",
+          "barcode": "8904004",
+          "name": "Aloo Bhujia",
+          "brand": "Haldiram's",
+          "unit": "200 g",
+          "price": 55,
+          "mrp": 60,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 30,
+          "image": "/images/items/haldirams-aloo-bhujia-200.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-012B",
+      "name": "Soft Drinks",
+      "items": [
+        {
+          "id": "itm-BV-001",
+          "sku": "DRK-THUMS-750",
+          "barcode": "8902080",
+          "name": "Thums Up",
+          "brand": "Coca-Cola",
+          "unit": "750 ml",
+          "price": 40,
+          "mrp": 40,
+          "currency": "INR",
+          "tax": { "gst": 28 },
+          "stock": 45,
+          "image": "/images/items/thumsup-750.jpg"
+        },
+        {
+          "id": "itm-BV-002",
+          "sku": "DRK-PAPERBOAT-250-AML",
+          "barcode": "8908001",
+          "name": "Aam Panna",
+          "brand": "Paper Boat",
+          "unit": "250 ml",
+          "price": 35,
+          "mrp": 35,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 24,
+          "image": "/images/items/paperboat-aam-panna-250.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-014",
+      "name": "Instant Food",
+      "items": [
+        {
+          "id": "itm-PF-001",
+          "sku": "MAGGI-70G",
+          "barcode": "8901058",
+          "name": "Masala Noodles",
+          "brand": "Maggi",
+          "unit": "70 g",
+          "price": 14,
+          "mrp": 14,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 120,
+          "image": "/images/items/maggi-70.jpg",
+          "variants": [
+            { "unit": "70 g", "price": 14, "mrp": 14, "sku": "MAGGI-70G" },
+            { "unit": "280 g (4-pack)", "price": 56, "mrp": 56, "sku": "MAGGI-4PK" }
+          ]
+        },
+        {
+          "id": "itm-PF-002",
+          "sku": "OATS-SAFF-1KG",
+          "barcode": "8906009",
+          "name": "Quick Oats",
+          "brand": "Saffola",
+          "unit": "1 kg",
+          "price": 189,
+          "mrp": 210,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 16,
+          "image": "/images/items/saffola-oats-1kg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-036",
+      "name": "Pickles & Sauces",
+      "items": [
+        {
+          "id": "itm-PS-001",
+          "sku": "KTC-TOM-1KG",
+          "barcode": "8901207",
+          "name": "Tomato Ketchup",
+          "brand": "Kissan",
+          "unit": "1 kg",
+          "price": 129,
+          "mrp": 140,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 20,
+          "image": "/images/items/kissan-ketchup-1kg.jpg"
+        },
+        {
+          "id": "itm-PS-002",
+          "sku": "PCKL-MIX-500",
+          "barcode": "8901001000802",
+          "name": "Mixed Pickle",
+          "brand": "Mother's Recipe",
+          "unit": "500 g",
+          "price": 110,
+          "mrp": 120,
+          "currency": "INR",
+          "tax": { "gst": 12 },
+          "stock": 18,
+          "image": "/images/items/mothers-mixed-pickle-500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-024",
+      "name": "Laundry & Detergents",
+      "items": [
+        {
+          "id": "itm-LD-001",
+          "sku": "SURF-EASY-1KG",
+          "barcode": "8901030SURF",
+          "name": "Detergent Powder Easy Wash",
+          "brand": "Surf Excel",
+          "unit": "1 kg",
+          "price": 172,
+          "mrp": 185,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 28,
+          "image": "/images/items/surf-excel-easy-1kg.jpg"
+        },
+        {
+          "id": "itm-LD-002",
+          "sku": "COMF-MORN-500",
+          "barcode": "8901030COMF",
+          "name": "Fabric Conditioner - Morning Fresh",
+          "brand": "Comfort",
+          "unit": "500 ml",
+          "price": 117,
+          "mrp": 130,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 14,
+          "image": "/images/items/comfort-morning-500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-025",
+      "name": "Dishwash & Kitchen Cleaners",
+      "items": [
+        {
+          "id": "itm-DW-001",
+          "sku": "VIM-LIQ-500",
+          "barcode": "8901030VIM",
+          "name": "Dishwash Liquid",
+          "brand": "Vim",
+          "unit": "500 ml",
+          "price": 110,
+          "mrp": 120,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 26,
+          "image": "/images/items/vim-liquid-500.jpg"
+        },
+        {
+          "id": "itm-DW-002",
+          "sku": "SCRUB-PAD-3",
+          "barcode": "8901001000902",
+          "name": "Scrub Pads",
+          "brand": "Scotch-Brite",
+          "unit": "Pack of 3",
+          "price": 55,
+          "mrp": 60,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 40,
+          "image": "/images/items/scrubpad-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sub-020",
+      "name": "Oral Care",
+      "items": [
+        {
+          "id": "itm-OC-001",
+          "sku": "PASTE-COLG-200",
+          "barcode": "8901314",
+          "name": "Toothpaste - Strong Teeth",
+          "brand": "Colgate",
+          "unit": "200 g",
+          "price": 105,
+          "mrp": 115,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 30,
+          "image": "/images/items/colgate-strong-200.jpg"
+        },
+        {
+          "id": "itm-OC-002",
+          "sku": "BRSH-ORALB-SOFT-2",
+          "barcode": "8901001001002",
+          "name": "Toothbrush (Soft)",
+          "brand": "Oral-B",
+          "unit": "Pack of 2",
+          "price": 85,
+          "mrp": 95,
+          "currency": "INR",
+          "tax": { "gst": 18 },
+          "stock": 25,
+          "image": "/images/items/oralb-soft-2.jpg"
+        }
+      ]
+    }
+  ]
+}
+
